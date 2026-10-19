@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="100%">
+  <defs>
+    <!-- Gradient for IA: Electric Blue to Cyan -->
+    <linearGradient id="logo-ia-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF" />
+      <stop offset="60%" stop-color="#0088FF" />
+      <stop offset="100%" stop-color="#00B4D8" />
+    </linearGradient>
+
+    <!-- Gradient for Top Arc: Blue -> Cyan -> Teal -> Emerald Green -->
+    <linearGradient id="logo-top-arc-grad" x1="0%" y1="50%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0066FF" />
+      <stop offset="35%" stop-color="#0099FF" />
+      <stop offset="70%" stop-color="#00C49F" />
+      <stop offset="100%" stop-color="#00C875" />
+    </linearGradient>
+
+    <!-- Gradient for Bottom Arc: Blue -> Cyan -> Teal -->
+    <linearGradient id="logo-bottom-arc-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF" />
+      <stop offset="50%" stop-color="#0090FF" />
+      <stop offset="100%" stop-color="#00B8D4" />
+    </linearGradient>
+
+    <!-- Gradient for Arrowhead -->
+    <linearGradient id="logo-arrow-grad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00B8D4" />
+      <stop offset="100%" stop-color="#00C875" />
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Navy Corporate Color: #011E42 -->
+  <g fill="#011E42">
+    <!-- Letter "m" -->
+    <!-- Left vertical stem -->
+    <rect x="64" y="146" width="28" height="88" rx="2" />
+    <!-- Arch 1 -->
+    <path d="M 64 168 C 64 148, 80 144, 98 144 C 118 144, 134 154, 134 174 L 134 234 L 108 234 L 108 174 C 108 165, 103 162, 95 162 C 86 162, 82 166, 82 176 L 82 234 L 64 234 Z" />
+    <!-- Arch 2 -->
+    <path d="M 116 168 C 116 148, 132 144, 150 144 C 170 144, 186 154, 186 174 L 186 234 L 160 234 L 160 174 C 160 165, 155 162, 147 162 C 138 162, 134 166, 134 176 L 134 234 L 116 234 Z" />
+
+    <!-- Letter "o" -->
+    <path fill-rule="evenodd" d="M 242 143 C 268 143, 289 164, 289 190 C 289 216, 268 237, 242 237 C 216 237, 195 216, 195 190 C 195 164, 216 143, 242 143 Z M 242 165 C 228 165, 218 176, 218 190 C 218 204, 228 215, 242 215 C 256 215, 266 204, 266 190 C 266 176, 256 165, 242 165 Z" />
+
+    <!-- Letter "d" -->
+    <!-- Bowl (same as o) -->
+    <path fill-rule="evenodd" d="M 342 143 C 368 143, 389 164, 389 190 C 389 216, 368 237, 342 237 C 316 237, 295 216, 295 190 C 295 164, 316 143, 342 143 Z M 342 165 C 328 165, 318 176, 318 190 C 318 204, 328 215, 342 215 C 356 215, 366 204, 366 190 C 366 176, 356 165, 342 165 Z" />
+    <!-- Tall ascender -->
+    <rect x="362" y="106" width="27" height="128" rx="2" />
+
+    <!-- Letter "o" -->
+    <path fill-rule="evenodd" d="M 440 143 C 466 143, 487 164, 487 190 C 487 216, 466 237, 440 237 C 414 237, 393 216, 393 190 C 393 164, 414 143, 440 143 Z M 440 165 C 426 165, 416 176, 416 190 C 416 204, 426 215, 440 215 C 454 215, 464 204, 464 190 C 464 176, 454 165, 440 165 Z" />
+  </g>
+
+  <!-- Letter "I" & "A" with Blue/Cyan Gradient -->
+  <g fill="url(#logo-ia-grad)">
+    <!-- Letter "I" (matches height of d's ascender) -->
+    <rect x="506" y="106" width="28" height="128" rx="2" />
+
+    <!-- Letter "A" (apex flat top, matches height of I, horizontal crossbar) -->
+    <path fill-rule="evenodd" d="M 596 106 L 610 106 L 654 234 L 626 234 L 616 202 L 576 202 L 566 234 L 538 234 L 582 106 L 596 106 Z M 582 182 L 610 182 L 596 138 Z" />
+  </g>
+
+  <!-- Numbers "360" in Deep Navy: #011E42 -->
+  <g fill="#011E42">
+    <!-- Number "3" -->
+    <path d="M 672 146 L 724 146 L 724 166 L 696 182 C 708 182, 726 188, 726 208 C 726 226, 710 236, 690 236 C 674 236, 664 228, 660 218 L 682 208 C 684 214, 688 217, 693 217 C 700 217, 705 212, 705 206 C 705 198, 698 194, 688 194 L 680 194 L 680 178 L 696 164 L 672 164 Z" />
+
+    <!-- Number "6" -->
+    <path fill-rule="evenodd" d="M 780 146 L 780 166 C 776 164, 770 163, 764 163 C 744 163, 734 178, 732 196 C 738 189, 747 185, 758 185 C 775 185, 788 196, 788 211 C 788 226, 775 237, 758 237 C 740 237, 728 222, 728 196 C 728 165, 746 146, 772 146 C 775 146, 778 146, 780 146 Z M 758 201 C 750 201, 744 206, 744 212 C 744 218, 750 222, 758 222 C 765 222, 770 217, 770 212 C 770 206, 765 201, 758 201 Z" />
+
+    <!-- Number "0" -->
+    <path fill-rule="evenodd" d="M 836 143 C 858 143, 876 163, 876 190 C 876 217, 858 237, 836 237 C 814 237, 796 217, 796 190 C 796 163, 814 143, 836 143 Z M 836 164 C 825 164, 816 175, 816 190 C 816 205, 825 216, 836 216 C 847 216, 856 205, 856 190 C 856 175, 847 164, 836 164 Z" />
+  </g>
+
+  <!-- 360-DEGREE ORBITAL ARROW CIRCLE -->
+  <!-- Center is around (770, 190), Radius R ≈ 140 -->
+
+  <!-- Top Arc: Starts above the 3, curves over 360 to top-right -->
+  <path
+    d="M 648 106 C 678 68, 722 46, 772 46 C 826 46, 874 72, 902 114"
+    fill="none"
+    stroke="url(#logo-top-arc-grad)"
+    stroke-width="16"
+    stroke-linecap="round"
+  />
+
+  <!-- Bottom Arc: Starts below the 3, curves under 360 up to the Arrow base on the right -->
+  <path
+    d="M 648 274 C 680 312, 724 334, 772 334 C 830 334, 882 300, 908 244 L 912 216"
+    fill="none"
+    stroke="url(#logo-bottom-arc-grad)"
+    stroke-width="16"
+    stroke-linecap="round"
+  />
+
+  <!-- Upward Arrowhead on the Right Side (indicating growth / 360 cycle) -->
+  <path
+    d="M 914 152 L 936 206 L 914 196 L 892 206 Z"
+    fill="url(#logo-arrow-grad)"
+  />
+</svg>
